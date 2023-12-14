@@ -80,7 +80,7 @@ df_biochem_pivot_noTAG = impute_nan(row, cols, df_biochem_pivot)
 df_biochem_pivot_noTAG_nonan = impute_nan(row1, cols1, df_biochem_pivot)
 
 #df_biochem_pivot_noTAG_nonan.to_csv('/home/zhi/data/GP_diet_challenge/df_biochem_pheno_imputed.csv')
-
+--------------------------------------------------------------------------------------------------------------------------------
 df_biochem_pivot_noTAG_nonan1 = pd.read_csv('/home/zhi/nas/Diet_challenge/df_biochem_pheno_imputed.csv', index_col = 0)
 df_biochem_pivot_noTAG_nonan1['copsacno'] = df_biochem_pivot_noTAG_nonan1['copsacno'].astype('str')
 df_biochem_pivot_noTAG_nonan1['asthma'] = df_biochem_pivot_noTAG_nonan1['asthma'].astype('str')
